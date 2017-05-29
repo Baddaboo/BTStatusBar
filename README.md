@@ -1,8 +1,8 @@
-<img src="/misc/loader.gif">
+<img src="/Misc/loader.gif"/>
 ===
 [WIP] A custom status bar + loader for iOS. Gradient added for dramatic effect.
 
-<img src="/misc/screen.gif" align="right">
+<img src="/Misc/screen.gif" align="right">
 ## Usage
 BTStatusBar can be used to present non-modal messages and and loading indicators without modifying the view hierarchy of an app.
 
