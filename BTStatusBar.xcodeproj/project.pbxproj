@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12CAD76E1EDB9E3200E40C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CAD76D1EDB9E3200E40C48 /* AppDelegate.swift */; };
-		12CAD7701EDB9E3200E40C48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CAD76F1EDB9E3200E40C48 /* ViewController.swift */; };
-		12CAD7731EDB9E3200E40C48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CAD7711EDB9E3200E40C48 /* Main.storyboard */; };
-		12CAD7751EDB9E3200E40C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12CAD7741EDB9E3200E40C48 /* Assets.xcassets */; };
-		12CAD7781EDB9E3200E40C48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CAD7761EDB9E3200E40C48 /* LaunchScreen.storyboard */; };
+		12CAD7881EDB9E4B00E40C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CAD7801EDB9E4B00E40C48 /* AppDelegate.swift */; };
+		12CAD7891EDB9E4B00E40C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12CAD7811EDB9E4B00E40C48 /* Assets.xcassets */; };
+		12CAD78A1EDB9E4B00E40C48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CAD7821EDB9E4B00E40C48 /* LaunchScreen.storyboard */; };
+		12CAD78B1EDB9E4B00E40C48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CAD7841EDB9E4B00E40C48 /* Main.storyboard */; };
+		12CAD78D1EDB9E4B00E40C48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CAD7871EDB9E4B00E40C48 /* ViewController.swift */; };
+		12CAD7901EDB9E6D00E40C48 /* BTStatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CAD78F1EDB9E6D00E40C48 /* BTStatusBar.swift */; };
+		12CAD7921EDB9E8D00E40C48 /* BTStatusBarGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CAD7911EDB9E8D00E40C48 /* BTStatusBarGradientView.swift */; };
+		12CAD7941EDB9ECC00E40C48 /* BTLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CAD7931EDB9ECC00E40C48 /* BTLayoutHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		12CAD76A1EDB9E3200E40C48 /* BTStatusBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTStatusBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		12CAD76D1EDB9E3200E40C48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		12CAD76F1EDB9E3200E40C48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		12CAD7721EDB9E3200E40C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		12CAD7741EDB9E3200E40C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		12CAD7771EDB9E3200E40C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		12CAD7791EDB9E3200E40C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12CAD7801EDB9E4B00E40C48 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12CAD7811EDB9E4B00E40C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12CAD7831EDB9E4B00E40C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12CAD7851EDB9E4B00E40C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12CAD7861EDB9E4B00E40C48 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12CAD7871EDB9E4B00E40C48 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12CAD78F1EDB9E6D00E40C48 /* BTStatusBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTStatusBar.swift; sourceTree = "<group>"; };
+		12CAD7911EDB9E8D00E40C48 /* BTStatusBarGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTStatusBarGradientView.swift; sourceTree = "<group>"; };
+		12CAD7931EDB9ECC00E40C48 /* BTLayoutHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTLayoutHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +44,8 @@
 		12CAD7611EDB9E3200E40C48 = {
 			isa = PBXGroup;
 			children = (
-				12CAD76C1EDB9E3200E40C48 /* BTStatusBar */,
+				12CAD78E1EDB9E5900E40C48 /* Source */,
+				12CAD77F1EDB9E4B00E40C48 /* Example */,
 				12CAD76B1EDB9E3200E40C48 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,17 +58,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		12CAD76C1EDB9E3200E40C48 /* BTStatusBar */ = {
+		12CAD77F1EDB9E4B00E40C48 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				12CAD76D1EDB9E3200E40C48 /* AppDelegate.swift */,
-				12CAD76F1EDB9E3200E40C48 /* ViewController.swift */,
-				12CAD7711EDB9E3200E40C48 /* Main.storyboard */,
-				12CAD7741EDB9E3200E40C48 /* Assets.xcassets */,
-				12CAD7761EDB9E3200E40C48 /* LaunchScreen.storyboard */,
-				12CAD7791EDB9E3200E40C48 /* Info.plist */,
+				12CAD7801EDB9E4B00E40C48 /* AppDelegate.swift */,
+				12CAD7871EDB9E4B00E40C48 /* ViewController.swift */,
+				12CAD7811EDB9E4B00E40C48 /* Assets.xcassets */,
+				12CAD7821EDB9E4B00E40C48 /* LaunchScreen.storyboard */,
+				12CAD7841EDB9E4B00E40C48 /* Main.storyboard */,
+				12CAD7861EDB9E4B00E40C48 /* Info.plist */,
 			);
-			path = BTStatusBar;
+			path = Example;
+			sourceTree = "<group>";
+		};
+		12CAD78E1EDB9E5900E40C48 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				12CAD78F1EDB9E6D00E40C48 /* BTStatusBar.swift */,
+				12CAD7911EDB9E8D00E40C48 /* BTStatusBarGradientView.swift */,
+				12CAD7931EDB9ECC00E40C48 /* BTLayoutHelper.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +141,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12CAD7781EDB9E3200E40C48 /* LaunchScreen.storyboard in Resources */,
-				12CAD7751EDB9E3200E40C48 /* Assets.xcassets in Resources */,
-				12CAD7731EDB9E3200E40C48 /* Main.storyboard in Resources */,
+				12CAD78B1EDB9E4B00E40C48 /* Main.storyboard in Resources */,
+				12CAD7891EDB9E4B00E40C48 /* Assets.xcassets in Resources */,
+				12CAD78A1EDB9E4B00E40C48 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,28 +154,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12CAD7701EDB9E3200E40C48 /* ViewController.swift in Sources */,
-				12CAD76E1EDB9E3200E40C48 /* AppDelegate.swift in Sources */,
+				12CAD7941EDB9ECC00E40C48 /* BTLayoutHelper.swift in Sources */,
+				12CAD7921EDB9E8D00E40C48 /* BTStatusBarGradientView.swift in Sources */,
+				12CAD7901EDB9E6D00E40C48 /* BTStatusBar.swift in Sources */,
+				12CAD78D1EDB9E4B00E40C48 /* ViewController.swift in Sources */,
+				12CAD7881EDB9E4B00E40C48 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		12CAD7711EDB9E3200E40C48 /* Main.storyboard */ = {
+		12CAD7821EDB9E4B00E40C48 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				12CAD7721EDB9E3200E40C48 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		12CAD7761EDB9E3200E40C48 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				12CAD7771EDB9E3200E40C48 /* Base */,
+				12CAD7831EDB9E4B00E40C48 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		12CAD7841EDB9E4B00E40C48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12CAD7851EDB9E4B00E40C48 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -262,7 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SL8E63CST5;
-				INFOPLIST_FILE = BTStatusBar/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.modoki.BTStatusBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,7 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SL8E63CST5;
-				INFOPLIST_FILE = BTStatusBar/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.modoki.BTStatusBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
